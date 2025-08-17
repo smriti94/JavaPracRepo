@@ -6,13 +6,30 @@ public class Practice_COde {
 		Scanner sc= new Scanner(System.in);
 
 				
-		String str="123";
+			String sent="I love India";
+			
+//			String word[]=sent.split(" ");
+			
+			String rev="";
+			
+			for(int i=0; i<sent.length();i++)
+			{
+				rev = sent.charAt(i)+rev;
+				
+				
+			}
+			
+			System.out.println(rev);
+			
+			
+			
+			
+			
+			
+			
+			
+				
 		
-		int num=Integer.parseInt(str);
-		
-		System.out.println(num);
-		
-		
-		
+				
 	}
 }
