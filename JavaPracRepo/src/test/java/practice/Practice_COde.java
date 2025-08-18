@@ -5,31 +5,14 @@ public class Practice_COde {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 
-				
-			String sent="I love India";
-			
-//			String word[]=sent.split(" ");
-			
-			String rev="";
-			
-			for(int i=0; i<sent.length();i++)
-			{
-				rev = sent.charAt(i)+rev;
-				
-				
-			}
-			
-			System.out.println(rev);
-			
-			
-			
-			
-			
-			
-			
-			
-				
+		String sent= "My age is 25 years";
 		
-				
-	}
+		String num=sent.replaceAll("[aA-zZ]", "").replaceAll("\\s","");
+		
+		String alpha=sent.replaceAll("[0-9]", "").replaceAll("\\s"," ");
+		
+		System.out.println(num);
+		System.out.println(alpha);
+		
+	}	
 }
