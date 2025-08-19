@@ -4,15 +4,20 @@ public class Practice_COde {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-
-		String sent= "My age is 25 years";
 		
-		String num=sent.replaceAll("[aA-zZ]", "").replaceAll("\\s","");
+		System.out.println("Enter a number: ");
+		int num1= sc.nextInt();
 		
-		String alpha=sent.replaceAll("[0-9]", "").replaceAll("\\s"," ");
+		if(num1%2==0)
+		{
+			System.out.println("The number is Even");
+		}
+		else
+		{
+			System.out.println("The number is Odd");
+		}
 		
-		System.out.println(num);
-		System.out.println(alpha);
+		
 		
 	}	
 }
