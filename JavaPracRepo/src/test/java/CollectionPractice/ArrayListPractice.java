@@ -68,6 +68,12 @@ public class ArrayListPractice {
 		System.out.println(al);
 		System.out.println(al1);
 		
+		String a[]= {"Smriti", "Rimi" , "Prasenjit"};
+		
+		ArrayList ab= new ArrayList(Arrays.asList(a));
+		
+		System.out.println("Array to ArrayList" + ab);
+		 
 		
 	}
 
